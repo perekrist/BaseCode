@@ -14,6 +14,7 @@
 		CA79B8A8256CBA1600144605 /* BaseCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA79B8A7256CBA1600144605 /* BaseCodeTests.swift */; };
 		CA79B8B3256CBA1600144605 /* BaseCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA79B8B2256CBA1600144605 /* BaseCodeUITests.swift */; };
 		CA79B8C5256CBA5A00144605 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA79B8C4256CBA5A00144605 /* Alert.swift */; };
+		CA79B8CD256CBAC600144605 /* View+Navigate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA79B8CC256CBAC600144605 /* View+Navigate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CA79B8B2256CBA1600144605 /* BaseCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCodeUITests.swift; sourceTree = "<group>"; };
 		CA79B8B4256CBA1600144605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA79B8C4256CBA5A00144605 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		CA79B8CC256CBAC600144605 /* View+Navigate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Navigate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				CA79B8C4256CBA5A00144605 /* Alert.swift */,
+				CA79B8CC256CBAC600144605 /* View+Navigate.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				CA79B8C5256CBA5A00144605 /* Alert.swift in Sources */,
 				CA79B898256CBA1200144605 /* ContentView.swift in Sources */,
 				CA79B896256CBA1200144605 /* BaseCodeApp.swift in Sources */,
+				CA79B8CD256CBAC600144605 /* View+Navigate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
