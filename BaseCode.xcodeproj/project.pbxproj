@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,7 @@
 		CA79B8C5256CBA5A00144605 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA79B8C4256CBA5A00144605 /* Alert.swift */; };
 		CA79B8CD256CBAC600144605 /* View+Navigate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA79B8CC256CBAC600144605 /* View+Navigate.swift */; };
 		CA79B8D3256CBB1200144605 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA79B8D2256CBB1200144605 /* WebService.swift */; };
+		CA79B8DF256CBC6A00144605 /* LocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA79B8DE256CBC6A00144605 /* LocalService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		CA79B8C4256CBA5A00144605 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		CA79B8CC256CBAC600144605 /* View+Navigate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Navigate.swift"; sourceTree = "<group>"; };
 		CA79B8D2256CBB1200144605 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		CA79B8DE256CBC6A00144605 /* LocalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalService.swift; sourceTree = "<group>"; };
 		DF197215108ECF30A007EFB4 /* Pods-BaseCode-BaseCodeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseCode-BaseCodeUITests.debug.xcconfig"; path = "Target Support Files/Pods-BaseCode-BaseCodeUITests/Pods-BaseCode-BaseCodeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FB97FB501A60238CE490E620 /* Pods-BaseCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseCode.release.xcconfig"; path = "Target Support Files/Pods-BaseCode/Pods-BaseCode.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +105,6 @@
 				802CE596762EA8284CEA7F48 /* Pods-BaseCodeTests.debug.xcconfig */,
 				B4CF0A493063B074404AB1AB /* Pods-BaseCodeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -192,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				CA79B8D2256CBB1200144605 /* WebService.swift */,
+				CA79B8DE256CBC6A00144605 /* LocalService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -438,6 +440,7 @@
 				CA79B896256CBA1200144605 /* BaseCodeApp.swift in Sources */,
 				CA79B8D3256CBB1200144605 /* WebService.swift in Sources */,
 				CA79B8CD256CBAC600144605 /* View+Navigate.swift in Sources */,
+				CA79B8DF256CBC6A00144605 /* LocalService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
